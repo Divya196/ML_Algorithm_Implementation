@@ -54,8 +54,11 @@ wTx = 0
                                                   
 EQUATION OF N DIMENSIONAL PLANE OR HYPERPLANE ,
 
-^                     ^
-||n : wTx = 0 , where || is known as pi or plane
+^                     
+||n : wTx = 0 , 
+
+      ^
+where || is known as pi or plane
 
 w = w1      x=   x1
     w2           x2
@@ -91,14 +94,49 @@ distance  = wTs' / ||w|| = (||w|| ||s'|| cos teta) / ||w|| , where ||w|| is magn
 (||w|| ||s'|| cos teta) is going to be >90 degree so it will be -ve 
 
 
+Instance Based Learning vs Model Based Learning
+                               ___________
+                              | usecase   |
+                              |___________|
+                                    |
+                              ___________                             
+                            |             | ----- Regression
+                            |  ML Model   | ----- Classification
+                             _____________ 
+                                    | 
+                            -----------------------          
+                            |                      |
+                   Instance Based              Model Based Technique 
+                        |                            |
+  Learning religiously from training Data           Data
+                  {KNN}                              |
+  memorizing the data based on surrounding data     pattern - CREATE DECISION BOUNDARIES
+                                                     |
+                                                  Generalised method to learn the pattern of the data
+                                                
 
 
+Usual/conventional/model based machine learning         Instance based machine learning
 
+1)Train model from training data to estimate 
+model parameters,discover patterns
 
+2)store the model in suitable form,h5,pkl
 
+3)generalise the rule in serialised format in the
+form of model even before scoring instance is 
+seen
 
+4)predict for unseen scoring instance using model
 
+5)can throw away input or trained data after model 
+training
 
+6)requires a known model form
+
+7)storing models requires less storage
+
+8)storing for new instance is generally fast
 
 
 
