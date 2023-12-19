@@ -34,8 +34,11 @@ w1x1 + w2x2 + b = 0
 w1x1 + w2x2 + 0  = 0
 w1x1 + w2x2 = 0
 wTx = 0
-                                                  ^                     ^
-Equation of a n dimensional plane / Hyperplane =  ||n : wTx = 0 , where || is known as pi or plane
+                                                  
+Equation of a n dimensional plane / Hyperplane ,
+
+^                     ^
+||n : wTx = 0 , where || is known as pi or plane
 
 w = w1      x=   x1
     w2           x2
