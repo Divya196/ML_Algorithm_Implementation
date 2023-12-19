@@ -158,6 +158,51 @@ new i/p---->  | Model  | --->o/p
  
  summation of distance between True points and predicted points should be minimal for the best fit line .
 
+ COST FUNCTION 
+ 
+ h0(x)= 0o + 01 x
+
+ J(0o,01) , J(intercept,slope) = 1/2m * summation of (h0(x)i - (y)i)2 , i= 1 to m , h0 = predicted, y = true points , this is Mean Squared Error.
+
+ Final aim what we need to solve, minimize J(0o,01) 
+
+consider 0o(intercept) = 0 ,
+______________
+| h0(x) = 01 x | ---->equation 
+_______________
+
+let 01(slope) = 1 ,
+
+h0(x) = 1 , x=1 
+h0(x) = 2 , x=2 
+h0(x) = 3 , x=3 
+
+in dataset , we have 3 datapoints,
+
+J(01) = 1/2*3 [(1-1)^2 + (2-2)^2 + (3-3)^2] = 0.5
+
+let 01(slope)= 0.5,using equation,
+
+h0(x) = 0.5 * 1 = 0.5 ,if x=1
+h0(x) = 0.5 *2 = 1 , if x = 2
+h0(x) = 0.5 *3 = 1.5 , if x = 3 
+
+J(01) = 1/2*3 [(0.5-1)^2+(1-2)^2 + (1.5-3)^2] ~= 0.58
+
+let 01(slope) = 0 
+J(01) = 1/2*3[(0-1)^2+(0-2)^2+(0-3)^3] ~= 2.3
+
+continuing by different 01(slope) value,we will be geting curve known as gradient desent
+
+where the error is minimum,that point is  known as global minima. That is the best fit line
+
+
+
+
+
+
+ 
+
  
 
  
