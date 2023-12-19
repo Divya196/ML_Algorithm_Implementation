@@ -1,4 +1,11 @@
 #Implementing ML Algorithm from scratch
+#Implementing ML Algorithm from scratch
+Given a data point 
+
+1. Calculate the distance between given data point and all other data points in the dataset 
+2.Get the closest K points
+3.Regression : Get the average og their values
+4.Classification: Get the label with majority vote 
 
 AI- To create an AI application which can perform its own task without any human intervention.
 
