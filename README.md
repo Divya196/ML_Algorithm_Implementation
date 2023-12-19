@@ -192,9 +192,13 @@ J(01) = 1/2*3 [(0.5-1)^2+(1-2)^2 + (1.5-3)^2] ~= 0.58
 let 01(slope) = 0 
 J(01) = 1/2*3[(0-1)^2+(0-2)^2+(0-3)^3] ~= 2.3
 
-continuing by different 01(slope) value,we will be geting curve known as gradient desent
+continuing by different 01(slope) value,we will be geting curve known as gradient desent-----> 1
 
 where the error is minimum,that point is  known as global minima. That is the best fit line
+
+By 1 ,we cant randomly select different different 01 value,that is not possible , so we should apply convergence algorithm.
+
+In that we select 01 value and find out the mechanism of changing 01 value
 
 
 
