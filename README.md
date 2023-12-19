@@ -1,4 +1,4 @@
-#Implementing ML Algorithm from scratch
+
 #Implementing ML Algorithm from scratch
 Given a data point 
 
@@ -78,6 +78,7 @@ w is a vector
 
 
 LINEAR ALGEBRA 
+
 
 Distance of a point from plane,
 
