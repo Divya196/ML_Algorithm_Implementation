@@ -138,5 +138,26 @@ training
 
 8)storing for new instance is generally fast
 
+SIMPLE LINEAR REGRESSION: applicable in deep learning(ANN)
 
+   In Supervised Machine learning technique,if we have regression problem,we can solve using linear regression ,if we have one input feature then it is called simple linear regression.If we have many input feature then it is called multiple linear regression.
+               ________
+new i/p---->  | Model  | --->o/p
+               ________
+
+   Dataset 
+
+   Weight  Height 
+    78       170 cm
+    80       180 cm
+    75       175 cm 
+    -         -
+
+ TECHNIQUE TO SELECT BEST FIT LINE :
+ 
+ summation of distance between True points and predicted points should be minimal for the best fit line .
+
+ 
+
+ 
 
