@@ -203,6 +203,38 @@ In that we select 01 value and find out the mechanism of changing 01 value
 
 
 
+1.
+What is the main difference between supervised and unsupervised learning?
+In Supervised learning,dependent feature will be there. When output is continuous variable it is regression problem,when output is fixed number of classes it is classification problem. In unsupervised learning,label or dependent feature won't be there,when finding groups it is clustering problem,when we need to lower dimensions is is dimensionality reduction problem.
+
+
+3.
+Explain the concept of reinforcement learning and provide an example.
+Re-inforcement learning is for making better decisions. Example: Robot driving a car. Robot is the agent,car is the environment.For every correct action of agent,it will receive reward,for every incorrect action of agent,it will get feedback or observations. Reinforcement learning is kind of trail and error,main aim of the agent is to receive maximum rewards.
+
+5.
+Can you describe the working principle of k-nearest neighbors (KNN) algorithm in machine learning?
+
+7.
+Differentiate between decision tree and random forest algorithms in machine learning.
+8.
+What are the key characteristics of deep learning and how is it different from traditional machine learning algorithms?
+9.
+Explain the working of the support vector machine (SVM) algorithm and its applications in machine learning.
+10.
+Discuss the concept of clustering in unsupervised learning and provide an example of a clustering algorithm.
+11.
+What is the role of feature engineering in machine learning and how does it contribute to model performance?
+12.
+Define ensemble learning and discuss its significance in improving machine learning models.
+13.
+Can you explain the concept of dimensionality reduction in machine learning and its impact on model complexity?
+14.
+Describe the working of the Naive Bayes algorithm and its applications in text classification.
+
+
+
+
 
 
  
