@@ -115,6 +115,31 @@ Instance Based Learning vs Model Based Learning
                                                      |
                                                   Generalised method to learn the pattern of the data
                                                 
+1.
+What is the main difference between instance-based learning and model-based learning?
+Instance based learning won't build model during training,for any new instance,it will predict based on surrounding data and learning religiously from training Data. Model based learning is generalized method to learn pattern of the data,create decision boundaries and generalise the rule in serialised format in the form of model even before scoring instance is seen.
+2.
+Explain with an example how instance-based learning works in machine learning.
+K-Nearest Neighbour  is an instance based learning where no model will be build,if any new query point,based on nearest neighbour and majority,it will be grouped. It won't find pattern of the dataset.
+3.
+What are the limitations of instance-based learning in machine learning?
+1)Requires high storage
+2)storing for new instance is generally slow
+3)can't throw away input or trained data
+4)Handling large dataset
+4.
+How does model-based learning differ from instance-based learning in terms of generalization and prediction?
+Model based learning generalise the rule in serialised format in the form of model even before scoring instance is seen,predict for unseen scoring instance using model,store the model in suitable form,h5,pkl.It is a generalised method to learn the pattern of the data. Whereas Instance based learning is a lazy learner,it won't build generalised model and prediction happen based on surrounding data.
+5.
+Discuss the concept of overfitting and underfitting in the context of model-based learning.
+Overfitting means low bias,high variance. Underfitting means high bias,low variance. For any generalized model,it will have low bias,low variance. The model based learning aims to build generalised model to prevent from overfitting and underfitting.
+6.
+Compare and contrast the computational complexity of model-based learning and instance-based learning.
+Instance based learning requires high storage and storing for new instance is generally slow whereas storing models requires less storage and storing for new instance is generally fast in model based learning.
+
+
+
+
 
 
 Usual/conventional/model based machine learning         Instance based machine learning
