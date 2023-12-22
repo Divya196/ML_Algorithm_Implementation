@@ -120,7 +120,7 @@ What is the main difference between instance-based learning and model-based lear
 Instance based learning won't build model during training,for any new instance,it will predict based on surrounding data and learning religiously from training Data. Model based learning is generalized method to learn pattern of the data,create decision boundaries and generalise the rule in serialised format in the form of model even before scoring instance is seen.
 2.
 Explain with an example how instance-based learning works in machine learning.
-K-Nearest Neighbour  is an instance based learning where no model will be build,if any new query point,based on nearest neighbour and majority,it will be grouped. It won't find pattern of the dataset.
+K-Nearest Neighbour  is an instance based learning where no model will be build,if any new query point,based on nearest neighbour and majority,it will be classified. It won't find pattern of the dataset.
 3.
 What are the limitations of instance-based learning in machine learning?
 1)Requires high storage
@@ -140,15 +140,18 @@ Instance based learning requires high storage and storing for new instance is ge
 What are the advantages of model-based learning over instance-based learning?
 Model based learning have advantage with respect to storage and prediction when compared to instance based learning. In, Model based learning storing models requires less storage,storing for new instance is generally fast, predict for unseen scoring instance using model and can throw away input or trained data after model training. 
 Model based learning is more generalized compared to instance based learning.
-Instance based learning leads to overfitting or underfitting when there is an outliers or imbalanced dataset whereas model based learning will prevent that.
 8.
 Can model-based learning handle large datasets more efficiently than instance-based learning? Justify your answer.
 Yes,model based learning can handle large datasets more efficiently because it train model from training data to estimate model parameters,discover patterns,generalise the rule in serialised format in the form of model even before scoring instance is seen.
 9.
 Explain how the curse of dimensionality impacts instance-based learning in machine learning.
 For many number of features,instance based learning leads to overfitting or underfitting,so the curse of dimensionality impacts instance based learning.
-
-
+10.
+In what kind of scenarios would you prefer to use instance-based learning over model-based learning, and vice versa?
+If we have small number of features with non-numeric dataset and it is a classification problem,can prefer to use instance based learning. If we have large numeric datasets,model based learning is preferred.
+11.
+Discuss the role of distance metrics in instance-based learning and their impact on the learning process.
+Distance metrics is used to find similarity and dissimilarity in the datapoints .If the distance between two datapoints decrease,the similarity between them increase. For clustering and classification problem,distance metrics is used for prediction.
 
 
 
