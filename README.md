@@ -152,6 +152,12 @@ If we have small number of features with non-numeric dataset and it is a classif
 11.
 Discuss the role of distance metrics in instance-based learning and their impact on the learning process.
 Distance metrics is used to find similarity and dissimilarity in the datapoints .If the distance between two datapoints decrease,the similarity between them increase. For clustering and classification problem,distance metrics is used for prediction.
+12.
+How does the choice of similarity measure affect the performance of instance-based learning algorithms?
+Similarity measure are functions used to calculate the similarity between the datapoints. That will return numerical value which describes how similar the datapoints are. There are many types of similarity measures,choosing the right similarity measure based on data is more important for increasing the performance.
+14.
+Explain the concept of lazy learning and its relevance to instance-based learning in machine learning.
+Lazy learning means not building model during training,prediction of new query point will happen based on surrounding data,it won't discover pattern of the data. Instance based learning is a lazy learning.
 
 
 
