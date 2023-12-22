@@ -143,7 +143,10 @@ Model based learning is more generalized compared to instance based learning.
 Instance based learning leads to overfitting or underfitting when there is an outliers or imbalanced dataset whereas model based learning will prevent that.
 8.
 Can model-based learning handle large datasets more efficiently than instance-based learning? Justify your answer.
-
+Yes,model based learning can handle large datasets more efficiently because it train model from training data to estimate model parameters,discover patterns,generalise the rule in serialised format in the form of model even before scoring instance is seen.
+9.
+Explain how the curse of dimensionality impacts instance-based learning in machine learning.
+For many number of features,instance based learning leads to overfitting or underfitting,so the curse of dimensionality impacts instance based learning.
 
 
 
