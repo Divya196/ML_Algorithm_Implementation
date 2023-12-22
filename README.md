@@ -4,7 +4,7 @@ Given a data point
 
 1. Calculate the distance between given data point and all other data points in the dataset 
 2.Get the closest K points
-3.Regression : Get the average og their values
+3.Regression : Get the average of their values
 4.Classification: Get the label with majority vote 
 
 AI- To create an AI application which can perform its own task without any human intervention.
@@ -136,6 +136,14 @@ Overfitting means low bias,high variance. Underfitting means high bias,low varia
 6.
 Compare and contrast the computational complexity of model-based learning and instance-based learning.
 Instance based learning requires high storage and storing for new instance is generally slow whereas storing models requires less storage and storing for new instance is generally fast in model based learning.
+7.
+What are the advantages of model-based learning over instance-based learning?
+Model based learning have advantage with respect to storage and prediction when compared to instance based learning. In, Model based learning storing models requires less storage,storing for new instance is generally fast, predict for unseen scoring instance using model and can throw away input or trained data after model training. 
+Model based learning is more generalized compared to instance based learning.
+Instance based learning leads to overfitting or underfitting when there is an outliers or imbalanced dataset whereas model based learning will prevent that.
+8.
+Can model-based learning handle large datasets more efficiently than instance-based learning? Justify your answer.
+
 
 
 
